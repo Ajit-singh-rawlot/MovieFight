@@ -1,0 +1,25 @@
+h1{
+    background-image: linear-gradient(green,rgb(0, 102, 255));
+     border-style: solid;
+     height: 70px;
+ 
+    transform:translateX(000px);
+     text-align: center;
+     text-decoration:wavy  ;
+     text-emphasis-color: deeppink;
+     border-color: gold;
+     margin: 0 auto;
+    
+     color: rgb(253, 253, 253);
+ }
+body{
+    background-image: linear-gradient(red, yellow,blue);
+}
+#Title
+{
+    font-size: 30px;
+    font-style: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: -webkit-linear-gradient(rgb(155, 124, 38), rgb(124, 9, 9));
+    color: mediumblue;
+}
