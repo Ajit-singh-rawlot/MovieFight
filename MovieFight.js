@@ -1,3 +1,4 @@
+alert();
 const createAutoCompleteConfig= {
     renderOption(movie)
     {
