@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <h1 id="Title"> Movie Fight</h1>
+    <title>MovieFight</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Ajit-singh-rawlot/moviefight@main/MovieFight.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+       <div class="columns">
+           <div class="column">
+                  <div id="left-autocomplete"></div>
+                  <div id="left-summary"></div>
+           </div>
+           <div class="column">
+                 <div id="right-autocomplete"></div>
+                 <div id="right-summary"></div>
 
-You can use the [editor on GitHub](https://github.com/Ajit-singh-rawlot/moviefight/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+            </div>
+     </div>
+            <div class="column is-half notification is-primary tutorial">
+                     <h2>Search movie name both side</h2>
+                       <p class="subtitle">We will tell you which is best!!!!</p>
+            </div>
+       </div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Ajit-singh-rawlot/moviefight/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+       <script src="https://cdn.jsdelivr.net/gh/Ajit-singh-rawlot/moviefight@main/autocomplete.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Ajit-singh-rawlot/moviefight@main/MovieFight.js"></script>
+</body>
+</html>
